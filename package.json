@@ -8,7 +8,7 @@
     ".": "./src/index.js"
   },
   "scripts": {
-    "test": "node tests/openclaw-adapter.test.js && node tests/openclaw-adapter-v1.test.js && node tests/normalize-action.test.js && node tests/risk-classification.test.js && node tests/policy-evaluation.test.js && node tests/jsonl-sink.test.js && node tests/middleware.test.js && node tests/approval-callback.test.js && node tests/replay.test.js && node tests/examples.test.js && node tests/no-official-claim.test.js",
+    "test": "node tests/openclaw-adapter.test.js && node tests/openclaw-adapter-v1.test.js && node tests/normalize-action.test.js && node tests/risk-classification.test.js && node tests/policy-evaluation.test.js && node tests/jsonl-sink.test.js && node tests/middleware.test.js && node tests/approval-callback.test.js && node tests/replay.test.js && node tests/examples.test.js && node tests/no-official-claim.test.js && node tests/policy-specificity.test.js",
     "build": "node -e \"import('./src/index.js').then(()=>console.log('ruleoak-openclaw-adapter build ok'))\"",
     "examples:all": "node examples/basic-middleware/run.js && node examples/file-delete-blocked/run.js && node examples/shell-command-approval/run.js && node examples/database-mutation-approval/run.js && node examples/email-send-approval/run.js && node examples/mcp-dangerous-tool/run.js && node examples/risky-skill-install/run.js && node examples/poisoned-context/run.js && node examples/evidence-output/run.js && node examples/replay/run.js",
     "demo:file-delete": "node examples/file-delete-blocked/run.js",
