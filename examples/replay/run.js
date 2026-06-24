@@ -1,0 +1,1 @@
+import { readFileSync } from "node:fs"; import { replayEvidenceJsonl } from "../../src/index.js"; console.log(JSON.stringify(replayEvidenceJsonl(readFileSync("fixtures/evidence/expected-basic.jsonl","utf8")), null, 2));

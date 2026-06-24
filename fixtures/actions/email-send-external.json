@@ -1,0 +1,5 @@
+{
+  "kind": "email.send",
+  "recipient": "outside@example.com",
+  "subject": "demo"
+}

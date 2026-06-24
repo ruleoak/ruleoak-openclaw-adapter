@@ -1,0 +1,2 @@
+{"type": "action_requested", "action": {"toolName": "filesystem", "operation": "read"}}
+{"type": "policy_decision", "decision": {"decision": "allow"}}

@@ -1,0 +1,20 @@
+{
+  "defaultAction": "approval",
+  "allowedActions": [
+    "filesystem.read",
+    "database.query",
+    "context.retrieve"
+  ],
+  "approvalRequired": [
+    "email.send",
+    "mcp.tool_call",
+    "database.mutate"
+  ],
+  "blockedActions": [
+    "filesystem.delete",
+    "shell.run",
+    "skill.install",
+    "database.destructive_ddl",
+    "secret.read"
+  ]
+}

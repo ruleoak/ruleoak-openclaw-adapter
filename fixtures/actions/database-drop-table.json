@@ -1,0 +1,5 @@
+{
+  "kind": "database.drop",
+  "database": "main",
+  "sql": "drop table users"
+}

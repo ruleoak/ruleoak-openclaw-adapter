@@ -1,0 +1,16 @@
+{
+  "defaultAction": "deny",
+  "allowedActions": [
+    "filesystem.read"
+  ],
+  "approvalRequired": [
+    "email.send"
+  ],
+  "blockedActions": [
+    "filesystem.delete",
+    "shell.run",
+    "mcp.tool_call",
+    "skill.install",
+    "database.destructive_ddl"
+  ]
+}

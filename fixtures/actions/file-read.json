@@ -1,0 +1,4 @@
+{
+  "kind": "filesystem.read",
+  "path": "/tmp/readme.md"
+}

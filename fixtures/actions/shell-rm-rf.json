@@ -1,0 +1,4 @@
+{
+  "kind": "shell.run",
+  "command": "rm -rf /tmp/demo"
+}
