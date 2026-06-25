@@ -14,7 +14,7 @@
     "demo:file-delete": "node examples/file-delete-blocked/run.js",
     "demo:mcp-dangerous-tool": "node examples/mcp-dangerous-tool/run.js"
   },
-  "homepage": "https://ruleoak.com/public-repositories.html",
+  "homepage": "https://ruleoak.com/developer-ecosystem.html#ruleoak-openclaw-adapter",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ruleoak/ruleoak-openclaw-adapter.git"
